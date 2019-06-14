@@ -37,6 +37,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/williamlief
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/lief-esbenshade-45a24519/
 superuser: true
 user_groups:
 - Researchers
