@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>baby-names on Lief Esbenshade</title>
+    <link>/categories/baby-names/</link>
+    <description>Recent content in baby-names on Lief Esbenshade</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Lief Esbenshade 2019</copyright>
+    <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/categories/baby-names/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Names and Sex</title>
+      <link>/post/baby-names-posts/names-and-sex/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/baby-names-posts/names-and-sex/</guid>
+      <description>
+
+
+&lt;div id=&#34;gender-neutral-names&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Gender Neutral Names&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;boys-to-girls&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Boys to Girls&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;girls-to-boys&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Girls to Boys??&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Most Popular Names</title>
+      <link>/post/baby-names-posts/baby-names-popular/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/baby-names-posts/baby-names-popular/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;the-most-popular-names&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Most Popular Names&lt;/h2&gt;
+&lt;p&gt;First off, here are the top ten most popular names of 2017. Interestingly, a lot of classically popular names, (Mary, Jennifer, John, or Michael) aren’t on the list at all. In this post I explore some of the trends in name popularity over time.&lt;/p&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;span id=&#34;tab:mostPop&#34;&gt;Table 1: &lt;/span&gt;2017’s most popular names&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;right&#34;&gt;rank&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;F&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;M&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Emma&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Liam&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Olivia&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Noah&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Ava&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;William&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Isabella&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;James&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sophia&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Logan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Mia&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Benjamin&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;7&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Charlotte&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Mason&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Amelia&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Elijah&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Evelyn&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Oliver&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Abigail&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Jacob&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div id=&#34;three-questions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Three Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;What are the most popular names historically?
+&lt;ul&gt;
+&lt;li&gt;Mary and John are the most popular names given to babies, but they built up a huge lead in the 1800’s.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;How popular was the most popular name in different years?
+&lt;ul&gt;
+&lt;li&gt;About 1.2% of girls today are named Emma, but in 1880, 7.8% of girls were named Mary.&lt;/li&gt;
+&lt;li&gt;About 1% of boys today are named Liam, but in 1880, 8.7% of boys were named John.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;How has the number of unique names given changed over time?
+&lt;ul&gt;
+&lt;li&gt;In 1880, 95% of babies were given one of 800 names (400 girl names and 400 boy names).&lt;/li&gt;
+&lt;li&gt;Today, 95% of babies are given one of 12,000 names (7,700 girl names and 4,400 boy names).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;historical-most-popular-names&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Historical Most Popular Names&lt;/h2&gt;
+&lt;p&gt;Here we see all the names that have ever been the most popular for a year, and the number of times they have held that honor. Mary was the most popular name for girls in 76 years. Our data only covers 138 years, and Mary was the most popular name for more than half of it. John and Michael are tied for most popular men’s name, having been the most popular name in 44 years each.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Name&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Sex&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Years Most Popular&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Mary&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;F&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;76&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;John&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;44&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Michael&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;44&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Robert&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Jennifer&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;F&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Jacob&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;James&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Emily&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;F&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Jessica&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;F&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Lisa&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;F&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Linda&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;F&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Emma&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;F&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Noah&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Sophia&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;F&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Ashley&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;F&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Isabella&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;F&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;David&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Liam&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div id=&#34;how-popular-was-the-most-popular-name&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;How Popular was the Most Popular Name?&lt;/h2&gt;
+&lt;p&gt;The most popular name today is much less popular than it used to be! In the graph below we see that the most popular name in each year becomes much less popular over time. In 1880, Mary was the most popular girls name and was given to almost 8% of baby girls! But today the most popular girls name is Emma and is given to just 1.1% of girls. With a few exceptions, the most popular name for boys was a bit more popular than the most popular girls name, but it, too, has declined in popularity. The points on the graph show when the most popular name changed, we will explore those changes below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/baby-names-posts/2019-06-14-the-most-popular-names_files/figure-html/popPer-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-was-the-most-popular-name&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What was the most popular name?&lt;/h2&gt;
+&lt;p&gt;Here we list the most popular name, the year when it changed, and what percent of babys it was given to. Mary reigned for girls from 1880 until 1946. In 1947 Linda surged in popularity and took the title. Linda’s time was short lived however, and in 1953, Mary reclaimed the title, but at a fraction of her former popularity. For Men, the 1950’s were a contentious time with James giving way to Robert in 1953, Michael claiming the crown in 1954, only losing it to David for a year in 1960.&lt;/p&gt;
+&lt;p&gt;Its interesting to note that there has been a fairly steady decrease in the popularity of the most popular name over time, but its only in the last forty years that people have really begun branching out into new names.&lt;/p&gt;
+&lt;table class=&#34;table table-striped&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Year
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Name
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Percent
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Name
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Percent
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1880
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+John
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+8.7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Mary
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+7.8
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1924
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Robert
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+5.4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1940
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+James
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+5.4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1947
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Linda
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+5.6
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1953
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Robert
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Mary
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+3.4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1954
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Michael
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1960
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+David
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.0
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1961
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Michael
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1962
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Lisa
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+2.3
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1970
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Jennifer
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+2.6
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1985
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Jessica
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+2.8
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1991
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Ashley
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+2.3
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1993
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Jessica
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1.9
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1996
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Emily
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1.4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1999
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Jacob
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1.8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+2008
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Emma
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1.0
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+2009
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Isabella
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1.2
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+2011
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Sophia
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1.2
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+2013
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Noah
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1.0
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+2014
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Emma
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1.2
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Liam
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1.0
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-explosion-in-name-variety&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Explosion in Name Variety&lt;/h2&gt;
+&lt;p&gt;In the plots below we see that there has recently been a massive increase in the number of different names used. Between 1880 and 1960 roughly half of baby girls were given one of fifty unique names. For boys, there was even less variety, with half of boys receiving one of just thirty names. Now there are about five times as many (250) unique names on the list that covers half of baby girls, and five times as many (150) on the list for boys. At the extreme, we can see that we’ve gone from 400 names covering 95% of baby boys and girls in 1880 to needing 7,700 girl names and 4,400 boy names to cover 95% of births today.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/baby-names-posts/2019-06-14-the-most-popular-names_files/figure-html/howMany-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

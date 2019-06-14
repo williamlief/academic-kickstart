@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic on Lief Esbenshade</title>
+    <link>/tags/academic/</link>
+    <description>Recent content in Academic on Lief Esbenshade</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Lief Esbenshade 2019</copyright>
+    <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teacher Evaluation Database</title>
+      <link>/project/teacher-evaluation-database/evaluationdb/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/teacher-evaluation-database/evaluationdb/</guid>
+      <description>&lt;p&gt;1 para academic introduction to project, cite kraft and gilmour&lt;/p&gt;
+
+&lt;p&gt;As an example, here&amp;rsquo;s the distribution of teacher evaluation results across Ohio&amp;rsquo;s districts in 2014:
+&lt;img src=&#34;/teacher-evaluation-database/2019-06-13-teacher-evaluation-database_files/Ohio_evaluation.jpg&#34; alt=&#34;Distribution of teacher evaluations in Ohio by school district&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This project is a compilation of publicly available teacher evaluation reports for US school districts. Detailed notes with the sources of all data are part of the &lt;a href=&#34;https://github.com/williamlief/evaluationDB&#34; target=&#34;_blank&#34;&gt;github repostiory&lt;/a&gt;, as is all code used to clean and process the data. In the repository you won&amp;rsquo;t find teacher names and evaluation scores, but you will find the count of teachers receiving each rating in a district. It is not at all clear that evaluation reports are comparable across districts or states, and I urge extreme caution in attempting to directly compare results across districts. Districts with more teachers rated &amp;lsquo;ineffective&amp;rsquo; may have worse teachers or they may simply have been more willing to engage with the evaluation tools. Similarly, districts that report all of their teachers are &amp;lsquo;highly effective&amp;rsquo; may in fact be phenomenal, or they may have had administrators who decided that they did not want to meaningfully participate in the evaluation system.&lt;/p&gt;
+
+&lt;p&gt;All data for this project is currently kept privately until I ready for a public release of the data. If you are interested in getting involved please contact me.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teacher Payroll Database</title>
+      <link>/project/teacherdb/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/teacherdb/</guid>
+      <description>&lt;p&gt;A few years ago I embarked on a quixotic mission to build a database with every teacher in America. That ambitious dream is far from realized, but the database now has tens of millions of records from over 14 states. With this data, I am exploring teacher retention and mobility. In the future, I plan to release a public data set that includes district level summary statistics. As an example, this chart shows the distribution of teacher retention rates across districts, by state and year.&lt;/p&gt;
+
+&lt;p&gt;INSERT CHART&lt;/p&gt;
+
+&lt;p&gt;I also want to say that there are some interesting privacy questions around making public - but previously hard to access - data easily accesible. This work is not intended to be used to fuel listicles of the &amp;lsquo;most overpaid teachers and administrators in America.&amp;rsquo; At this point I do not intend to publicly share the compiled teacher level data, though I welcome academic collaborators.&lt;/p&gt;
+
+&lt;p&gt;See the project code on &lt;a href=&#34;https://github.com/williamlief/teacherDB&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>liefTools</title>
+      <link>/project/lieftools/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/lieftools/</guid>
+      <description>&lt;p&gt;This is an r-package I have developed to contain a collection of helpful functions that I find useful for data analysis. Most of these functions are very simple, but save me from having to type out the same five lines of code over and over again. As some examples:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;summarize_mean&lt;/code&gt; takes a dataset and returns the mean value of every variable in it. The function also allows an optional grouping parameter, and will return a wide tibble with one row per variable and one column per group level.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;g_sample&lt;/code&gt; takes a random sample of groups within a grouped tibble, instead of a random sample of rows within each group.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;balance_panel&lt;/code&gt; takes panel data, and removes all the units that are missing observations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The package is fully documented in R, see the help index for a full list of functions. Note that this package will change frequently, and I make no promises about preserving backwards compatibility. If you&amp;rsquo;re interested in using any of the tools, I suggest forking the repository and maintaining your own version.&lt;/p&gt;
+
+&lt;p&gt;Install using &lt;code&gt;devtools::install_github(&amp;quot;williamlief/liefTools&amp;quot;)&lt;/code&gt; or check out the &lt;a href=&#34;https://github.com/williamlief/liefTools&#34; target=&#34;_blank&#34;&gt;GitHub Repo&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

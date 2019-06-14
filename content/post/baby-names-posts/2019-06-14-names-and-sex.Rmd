@@ -1,0 +1,38 @@
+---
+title: Names and Sex
+author: Lief Esbenhsade
+date: '2019-06-14'
+slug: names-and-sex
+categories:
+  - baby-names
+tags:
+  - side
+subtitle: '[A Baby Names Post](williamlief.com/baby-names)'
+summary: 'How names are associated with boys or girls'
+lastmod: '2019-06-14T15:07:23-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.kable.NA = '')
+
+library(tidyverse)
+
+project_dir <- source("project_dir.R")[[1]]
+
+df <- readRDS(paste0(project_dir, "/name_data.rds"))
+```
+
+## Gender Neutral Names
+
+
+## Boys to Girls
+
+
+## Girls to Boys??
