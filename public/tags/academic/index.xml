@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic on Lief Esbenshade</title>
-    <link>/tags/academic/</link>
+    <link>https://pedantic-nobel-139058.netlify.com/tags/academic/</link>
     <description>Recent content in Academic on Lief Esbenshade</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Lief Esbenshade 2019</copyright>
     <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://pedantic-nobel-139058.netlify.com/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Teacher Evaluation Database</title>
-      <link>/project/teacher-evaluation-database/evaluationdb/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/project/teacher-evaluation-database/evaluationdb/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/teacher-evaluation-database/evaluationdb/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/project/teacher-evaluation-database/evaluationdb/</guid>
       <description>&lt;p&gt;1 para academic introduction to project, cite kraft and gilmour&lt;/p&gt;
 
 &lt;p&gt;As an example, here&amp;rsquo;s the distribution of teacher evaluation results across Ohio&amp;rsquo;s districts in 2014:
-&lt;img src=&#34;/teacher-evaluation-database/2019-06-13-teacher-evaluation-database_files/Ohio_evaluation.jpg&#34; alt=&#34;Distribution of teacher evaluations in Ohio by school district&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://pedantic-nobel-139058.netlify.com/teacher-evaluation-database/2019-06-13-teacher-evaluation-database_files/Ohio_evaluation.jpg&#34; alt=&#34;Distribution of teacher evaluations in Ohio by school district&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This project is a compilation of publicly available teacher evaluation reports for US school districts. Detailed notes with the sources of all data are part of the &lt;a href=&#34;https://github.com/williamlief/evaluationDB&#34; target=&#34;_blank&#34;&gt;github repostiory&lt;/a&gt;, as is all code used to clean and process the data. In the repository you won&amp;rsquo;t find teacher names and evaluation scores, but you will find the count of teachers receiving each rating in a district. It is not at all clear that evaluation reports are comparable across districts or states, and I urge extreme caution in attempting to directly compare results across districts. Districts with more teachers rated &amp;lsquo;ineffective&amp;rsquo; may have worse teachers or they may simply have been more willing to engage with the evaluation tools. Similarly, districts that report all of their teachers are &amp;lsquo;highly effective&amp;rsquo; may in fact be phenomenal, or they may have had administrators who decided that they did not want to meaningfully participate in the evaluation system.&lt;/p&gt;
 
@@ -31,10 +31,10 @@
     
     <item>
       <title>Teacher Payroll Database</title>
-      <link>/project/teacherdb/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/project/teacherdb/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/teacherdb/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/project/teacherdb/</guid>
       <description>&lt;p&gt;A few years ago I embarked on a quixotic mission to build a database with every teacher in America. That ambitious dream is far from realized, but the database now has tens of millions of records from over 14 states. With this data, I am exploring teacher retention and mobility. In the future, I plan to release a public data set that includes district level summary statistics. As an example, this chart shows the distribution of teacher retention rates across districts, by state and year.&lt;/p&gt;
 
 &lt;p&gt;INSERT CHART&lt;/p&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>liefTools</title>
-      <link>/project/lieftools/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/project/lieftools/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/lieftools/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/project/lieftools/</guid>
       <description>&lt;p&gt;This is an r-package I have developed to contain a collection of helpful functions that I find useful for data analysis. Most of these functions are very simple, but save me from having to type out the same five lines of code over and over again. As some examples:&lt;/p&gt;
 
 &lt;ul&gt;

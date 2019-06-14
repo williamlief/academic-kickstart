@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lief Esbenshade</title>
-    <link>/</link>
+    <link>https://pedantic-nobel-139058.netlify.com/</link>
     <description>Recent content on Lief Esbenshade</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Lief Esbenshade 2019</copyright>
     <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://pedantic-nobel-139058.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Names and Sex</title>
-      <link>/post/baby-names-posts/names-and-sex/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/names-and-sex/</link>
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/baby-names-posts/names-and-sex/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/names-and-sex/</guid>
       <description>
 
 
@@ -35,12 +35,12 @@
     
     <item>
       <title>The Most Popular Names</title>
-      <link>/post/baby-names-posts/baby-names-popular/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/baby-names-popular/</link>
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/baby-names-posts/baby-names-popular/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/baby-names-popular/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://pedantic-nobel-139058.netlify.com/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;the-most-popular-names&#34; class=&#34;section level2&#34;&gt;
@@ -236,7 +236,7 @@
 &lt;div id=&#34;how-popular-was-the-most-popular-name&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;How Popular was the Most Popular Name?&lt;/h2&gt;
 &lt;p&gt;The most popular name today is much less popular than it used to be! In the graph below we see that the most popular name in each year becomes much less popular over time. In 1880, Mary was the most popular girls name and was given to almost 8% of baby girls! But today the most popular girls name is Emma and is given to just 1.1% of girls. With a few exceptions, the most popular name for boys was a bit more popular than the most popular girls name, but it, too, has declined in popularity. The points on the graph show when the most popular name changed, we will explore those changes below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/baby-names-posts/2019-06-14-the-most-popular-names_files/figure-html/popPer-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/2019-06-14-the-most-popular-names_files/figure-html/popPer-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;what-was-the-most-popular-name&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;What was the most popular name?&lt;/h2&gt;
@@ -588,17 +588,17 @@ Liam
 &lt;div id=&#34;the-explosion-in-name-variety&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;The Explosion in Name Variety&lt;/h2&gt;
 &lt;p&gt;In the plots below we see that there has recently been a massive increase in the number of different names used. Between 1880 and 1960 roughly half of baby girls were given one of fifty unique names. For boys, there was even less variety, with half of boys receiving one of just thirty names. Now there are about five times as many (250) unique names on the list that covers half of baby girls, and five times as many (150) on the list for boys. At the extreme, we can see that we’ve gone from 400 names covering 95% of baby boys and girls in 1880 to needing 7,700 girl names and 4,400 boy names to cover 95% of births today.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/baby-names-posts/2019-06-14-the-most-popular-names_files/figure-html/howMany-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/2019-06-14-the-most-popular-names_files/figure-html/howMany-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Baby Names</title>
-      <link>/project/baby-names/baby-names/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/project/baby-names/baby-names/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/baby-names/baby-names/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/project/baby-names/baby-names/</guid>
       <description>
 
 
@@ -618,10 +618,10 @@ Liam
     
     <item>
       <title>Baby Schedule</title>
-      <link>/project/baby-schedule/babyschedule/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/project/baby-schedule/babyschedule/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/baby-schedule/babyschedule/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/project/baby-schedule/babyschedule/</guid>
       <description>
 
 
@@ -648,14 +648,14 @@ Liam
     
     <item>
       <title>Teacher Evaluation Database</title>
-      <link>/project/teacher-evaluation-database/evaluationdb/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/project/teacher-evaluation-database/evaluationdb/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/teacher-evaluation-database/evaluationdb/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/project/teacher-evaluation-database/evaluationdb/</guid>
       <description>&lt;p&gt;1 para academic introduction to project, cite kraft and gilmour&lt;/p&gt;
 
 &lt;p&gt;As an example, here&amp;rsquo;s the distribution of teacher evaluation results across Ohio&amp;rsquo;s districts in 2014:
-&lt;img src=&#34;/teacher-evaluation-database/2019-06-13-teacher-evaluation-database_files/Ohio_evaluation.jpg&#34; alt=&#34;Distribution of teacher evaluations in Ohio by school district&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://pedantic-nobel-139058.netlify.com/teacher-evaluation-database/2019-06-13-teacher-evaluation-database_files/Ohio_evaluation.jpg&#34; alt=&#34;Distribution of teacher evaluations in Ohio by school district&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This project is a compilation of publicly available teacher evaluation reports for US school districts. Detailed notes with the sources of all data are part of the &lt;a href=&#34;https://github.com/williamlief/evaluationDB&#34; target=&#34;_blank&#34;&gt;github repostiory&lt;/a&gt;, as is all code used to clean and process the data. In the repository you won&amp;rsquo;t find teacher names and evaluation scores, but you will find the count of teachers receiving each rating in a district. It is not at all clear that evaluation reports are comparable across districts or states, and I urge extreme caution in attempting to directly compare results across districts. Districts with more teachers rated &amp;lsquo;ineffective&amp;rsquo; may have worse teachers or they may simply have been more willing to engage with the evaluation tools. Similarly, districts that report all of their teachers are &amp;lsquo;highly effective&amp;rsquo; may in fact be phenomenal, or they may have had administrators who decided that they did not want to meaningfully participate in the evaluation system.&lt;/p&gt;
 
@@ -665,10 +665,10 @@ Liam
     
     <item>
       <title>Teacher Payroll Database</title>
-      <link>/project/teacherdb/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/project/teacherdb/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/teacherdb/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/project/teacherdb/</guid>
       <description>&lt;p&gt;A few years ago I embarked on a quixotic mission to build a database with every teacher in America. That ambitious dream is far from realized, but the database now has tens of millions of records from over 14 states. With this data, I am exploring teacher retention and mobility. In the future, I plan to release a public data set that includes district level summary statistics. As an example, this chart shows the distribution of teacher retention rates across districts, by state and year.&lt;/p&gt;
 
 &lt;p&gt;INSERT CHART&lt;/p&gt;
@@ -681,10 +681,10 @@ Liam
     
     <item>
       <title>liefTools</title>
-      <link>/project/lieftools/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/project/lieftools/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/lieftools/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/project/lieftools/</guid>
       <description>&lt;p&gt;This is an r-package I have developed to contain a collection of helpful functions that I find useful for data analysis. Most of these functions are very simple, but save me from having to type out the same five lines of code over and over again. As some examples:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -696,16 +696,6 @@ Liam
 &lt;p&gt;The package is fully documented in R, see the help index for a full list of functions. Note that this package will change frequently, and I make no promises about preserving backwards compatibility. If you&amp;rsquo;re interested in using any of the tools, I suggest forking the repository and maintaining your own version.&lt;/p&gt;
 
 &lt;p&gt;Install using &lt;code&gt;devtools::install_github(&amp;quot;williamlief/liefTools&amp;quot;)&lt;/code&gt; or check out the &lt;a href=&#34;https://github.com/williamlief/liefTools&#34; target=&#34;_blank&#34;&gt;GitHub Repo&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     

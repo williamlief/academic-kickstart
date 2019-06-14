@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Lief Esbenshade</title>
-    <link>/post/</link>
+    <link>https://pedantic-nobel-139058.netlify.com/post/</link>
     <description>Recent content in Posts on Lief Esbenshade</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Lief Esbenshade 2019</copyright>
     <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://pedantic-nobel-139058.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Names and Sex</title>
-      <link>/post/baby-names-posts/names-and-sex/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/names-and-sex/</link>
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/baby-names-posts/names-and-sex/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/names-and-sex/</guid>
       <description>
 
 
@@ -35,12 +35,12 @@
     
     <item>
       <title>The Most Popular Names</title>
-      <link>/post/baby-names-posts/baby-names-popular/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/baby-names-popular/</link>
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/baby-names-posts/baby-names-popular/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/baby-names-popular/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://pedantic-nobel-139058.netlify.com/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;the-most-popular-names&#34; class=&#34;section level2&#34;&gt;
@@ -236,7 +236,7 @@
 &lt;div id=&#34;how-popular-was-the-most-popular-name&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;How Popular was the Most Popular Name?&lt;/h2&gt;
 &lt;p&gt;The most popular name today is much less popular than it used to be! In the graph below we see that the most popular name in each year becomes much less popular over time. In 1880, Mary was the most popular girls name and was given to almost 8% of baby girls! But today the most popular girls name is Emma and is given to just 1.1% of girls. With a few exceptions, the most popular name for boys was a bit more popular than the most popular girls name, but it, too, has declined in popularity. The points on the graph show when the most popular name changed, we will explore those changes below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/baby-names-posts/2019-06-14-the-most-popular-names_files/figure-html/popPer-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/2019-06-14-the-most-popular-names_files/figure-html/popPer-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;what-was-the-most-popular-name&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;What was the most popular name?&lt;/h2&gt;
@@ -588,7 +588,7 @@ Liam
 &lt;div id=&#34;the-explosion-in-name-variety&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;The Explosion in Name Variety&lt;/h2&gt;
 &lt;p&gt;In the plots below we see that there has recently been a massive increase in the number of different names used. Between 1880 and 1960 roughly half of baby girls were given one of fifty unique names. For boys, there was even less variety, with half of boys receiving one of just thirty names. Now there are about five times as many (250) unique names on the list that covers half of baby girls, and five times as many (150) on the list for boys. At the extreme, we can see that we’ve gone from 400 names covering 95% of baby boys and girls in 1880 to needing 7,700 girl names and 4,400 boy names to cover 95% of births today.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/baby-names-posts/2019-06-14-the-most-popular-names_files/figure-html/howMany-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pedantic-nobel-139058.netlify.com/post/baby-names-posts/2019-06-14-the-most-popular-names_files/figure-html/howMany-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

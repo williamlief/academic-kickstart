@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Lief Esbenshade</title>
-    <link>/tags/</link>
+    <link>https://pedantic-nobel-139058.netlify.com/tags/</link>
     <description>Recent content in Tags on Lief Esbenshade</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Lief Esbenshade 2019</copyright>
     <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://pedantic-nobel-139058.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>side</title>
-      <link>/tags/side/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/tags/side/</link>
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/side/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/tags/side/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic</title>
-      <link>/tags/academic/</link>
+      <link>https://pedantic-nobel-139058.netlify.com/tags/academic/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/academic/</guid>
+      <guid>https://pedantic-nobel-139058.netlify.com/tags/academic/</guid>
       <description></description>
     </item>
     
