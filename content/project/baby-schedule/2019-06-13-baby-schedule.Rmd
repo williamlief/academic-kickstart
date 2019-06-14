@@ -1,0 +1,34 @@
+---
+title: Baby Schedule
+author: Lief Esbenshade
+date: '2019-06-13'
+slug: babySchedule
+categories: []
+tags:
+  - side
+subtitle: 'Mapping baby behavior with a no-touch tool'
+summary: 'A no-touch tool to show naps, diapers, bottles, and walks'
+authors: []
+lastmod: '2019-06-13T15:49:26-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Our childcare provider sends us text messages with our daughter's daily schedule: when she took a nap, when she ate, when her diaper was changed. The messages were always structured the same way, and I realized I could extract the information and create some useful graphs. It is now much easier to monitor my daughter's patterns as she grows and changes (looking at a graph is way nicer than trying to dig through a bunch of text messages on my phone!) 
+
+I call this a no-touch tool because I didn't ask anyone to change anything they were doing. Too often workers are burdened with extra reporting and data entry duties, and I didn't want to do that. This app was developed opportunisticaly as an attempt to extract and understand data that already exists. 
+
+The project had three steps: 
+
+* Extract the data from the text messages into a format I could use. 
+    - This ended up being relatively easy, macs have an sql database with all the messages, and I wrote a little query to pull them.
+* Parse the raw text data. 
+    - Here I am fortunate that the messages were so regular. It ended up being pretty trivial to write some regex matches to get everything I needed. 
+* Create an interactive display 
+    - I wanted to make this data easy to look at and share interactively with my wife, so I made a simple shiny webapp (locally hosted only) to explore what was going on. 
+    
+All the code is on [Github](https://github.com/williamlief/babySchedule). But the data I'm keeping private. 

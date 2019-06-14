@@ -1,0 +1,168 @@
+---
+title: The Most Popular Names
+author: Lief Esbenshade
+date: '2019-06-14'
+slug: baby-names-popular
+categories:
+  - baby-names
+tags:
+  - side
+subtitle: '[A Baby Names Post](williamlief.com/baby-names)'
+summary: "A look at name popularity over time"
+lastmod: '2019-06-14T09:36:39-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.kable.NA = '')
+
+library(tidyverse)
+
+project_dir <- source("project_dir.R")[[1]]
+
+df <- readRDS(paste0(project_dir, "/name_data.rds")) %>% 
+  group_by(Year, Sex) %>% 
+  mutate(p = 100 * Count / sum(Count), 
+         rank = rank(-p),
+         pcum = cumsum(p)) %>% 
+  ungroup()
+```
+
+## The Most Popular Names 
+
+First off, here are the top ten most popular names of 2017. Interestingly, a lot of classically popular names, (Mary, Jennifer, John, or Michael) aren't on the list at all. In this post I explore some of the trends in name popularity over time.  
+
+```{r mostPop}
+
+df %>% filter(Year == 2017, rank <= 10) %>% 
+  select(Name, Sex, rank) %>% 
+  spread(key = Sex, value = "Name") %>% 
+  knitr::kable(caption = "2017's most popular names")
+    
+```
+
+
+## Three Questions
+
+* What are the most popular names historically?
+    - Mary and John are the most popular names given to babies, but they built up a huge lead in the 1800's. 
+* How popular was the most popular name in different years? 
+    - About 1.2\% of girls today are named Emma, but in 1880, 7.8\% of girls were named Mary.
+    - About 1\% of boys today are named Liam, but in 1880, 8.7\% of boys were named John.
+* How has the number of unique names given changed over time? 
+    - In 1880, 95\% of babies were given one of 800 names (400 girl names and 400 boy names).
+    - Today, 95\% of babies are given one of 12,000 names (7,700 girl names and 4,400 boy names).
+
+## Historical Most Popular Names
+
+Here we see all the names that have ever been the most popular for a year, and the number of times they have held that honor. Mary was the most popular name for girls in 76 years. Our data only covers 138 years, and Mary was the most popular name for more than half of it. John and Michael are tied for most popular men's name, having been the most popular name in 44 years each. 
+
+```{r mostPopTime}
+
+df %>% filter(rank == 1) %>% 
+  group_by(Name, Sex) %>%  
+  count(sort = TRUE) %>% 
+  rename("Years Most Popular" = n) %>% 
+  knitr::kable()
+
+```
+
+
+## How Popular was the Most Popular Name?
+
+The most popular name today is much less popular than it used to be! In the graph below we see that the most popular name in each year becomes much less popular over time. In 1880, Mary was the most popular girls name and was given to almost 8\% of baby girls! But today the most popular girls name is Emma and is given to just 1.1\% of girls. With a few exceptions, the most popular name for boys was a bit more popular than the most popular girls name, but it, too, has declined in popularity. The points on the graph show when the most popular name changed, we will explore those changes below.
+
+```{r popPer}
+
+most_popular <- df %>% 
+  filter(rank == 1) %>% 
+  group_by(Sex) %>% 
+  arrange(Sex, Year) %>% 
+  mutate(change = Name != lag(Name), 
+         change = replace(change, is.na(change), TRUE))
+
+ggplot(data = df %>% filter(rank == 1), 
+       aes(x = Year, y = p, color = Sex, label = Name)) +
+  geom_line() +
+  geom_point(data = filter(most_popular, change), 
+             aes(Year, p)) +
+  labs(title = "Popularity of the most popular name by year") +
+        xlab("Year") + ylab("Percent of Babys Named")
+
+```
+
+## What was the most popular name?
+
+Here we list the most popular name, the year when it changed, and what percent of babys it was given to. Mary reigned for girls from 1880 until 1946. In 1947 Linda surged in popularity and took the title. Linda's time was short lived however, and in 1953, Mary reclaimed the title, but at a fraction of her former popularity. For Men, the 1950's were a contentious time with James giving way to Robert in 1953, Michael claiming the crown in 1954, only losing it to David for a year in 1960. 
+
+Its interesting to note that there has been a fairly steady decrease in the popularity of the most popular name over time, but its only in the last forty years that people have really begun branching out into new names.
+
+```{r mostPopName}
+
+f <- most_popular %>% ungroup() %>% 
+  filter(change, Sex == "F") %>% 
+  select(Year, Name, "Percent" = p, Sex) 
+
+m <- most_popular %>% ungroup() %>% 
+  filter(change, Sex == "M") %>% 
+  select(Year, Name, "Percent" = p, Sex) 
+
+a <- m %>% 
+  full_join(f, by = c("Year")) %>% 
+  arrange(Year) %>% select(-c(Sex.x, Sex.y)) %>% 
+  select(Year, 
+         Name = Name.x, Percent = Percent.x,
+         Name = Name.y, Percent = Percent.y)
+  
+a %>% knitr::kable(digits = 1, "html") %>% 
+  kableExtra::kable_styling(bootstrap_options = "striped")
+
+```
+
+ 
+
+## The Explosion in Name Variety
+
+In the plots below we see that there has recently been a massive increase in the number of different names used. Between 1880 and 1960 roughly half of baby girls were given one of fifty unique names. For boys, there was even less variety, with half of boys receiving one of just thirty names. Now there are about five times as many (250) unique names on the list that covers half of baby girls, and five times as many (150) on the list for boys. At the extreme, we can see that we've gone from 400 names covering 95\% of baby boys and girls in 1880 to needing 7,700 girl names and 4,400 boy names to cover 95\% of births today. 
+
+```{r howMany}
+how_many <- df %>% 
+  group_by(Year, Sex) %>% 
+  mutate(
+    f50 = (pcum > 50), 
+    f75 = (pcum > 75), 
+    f90 = (pcum > 90), 
+    f95 = (pcum > 95), 
+    n = row_number())
+
+filter2 <- function(tbl, var, lab) {
+  var <- enquo(var)
+  filter(tbl, !!var) %>% 
+    filter(pcum == min(pcum)) %>% 
+    mutate(level = lab) %>% 
+    select(Year, Sex, n, level) 
+}
+
+hm2 <-
+  filter2(how_many, f50, "50% of Babies") %>% 
+  bind_rows(filter2(how_many, f75, "75% of Babies")) %>% 
+  bind_rows(filter2(how_many, f90, "90% of Babies")) %>% 
+  bind_rows(filter2(how_many, f95, "95% of Babies"))
+
+ggplot(data = hm2, 
+       aes(x = Year, y = n, color = Sex)) +
+  geom_line() +
+  facet_wrap(.~level, scales = "free_y") +
+  ylab("Number of Names") +
+  labs(title = "Number of Unique Names Given by Year and Percent of Babies")
+
+```
+
+
