@@ -1,0 +1,239 @@
+---
+title: 2016 Election Russian Facebook Ads Data
+author: Lief Esbenshade
+date: '2019-07-03'
+slug: RussianAds
+categories: []
+tags:
+  - side
+subtitle: ''
+summary: A summary of the publicly released data on Russian 2016 election advertisements
+lastmod: '2019-07-03T13:59:51-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>Note: this post was written in May 2018. The data can be accessed on <a href="https://github.com/williamlief/russianAds">github</a>.</p>
+<div id="overview" class="section level2">
+<h2>Overview</h2>
+<p>This is a preliminary summary of the data from the Facebook advertisements released by the U.S. House of Representatives Permanent Select Committee on Intelligence. In their words: “As part of that continuing effort to educate the public and seek additional analysis, the Committee Minority is making available all IRA advertisements identified by Facebook. This is an effort to be fully transparent with the public, allow outside experts to analyze the data, and provide the American people a fuller accounting of Russian efforts to sow discord and interfere in our democracy.”</p>
+</div>
+<div id="total-reach" class="section level2">
+<h2>Total Reach</h2>
+<p>The released data included 3,517 individual advertisements. Here we see the total amount spent on the advertisements as well as the total number of clicks and impressions. Spending was denoted in Rubles and was converted to dollars using the exchange rate on the date that the ad was created. While these spending figures do not include salaries for the individuals who created the advertisements, it should be noted that the total amount spent on the ads was extraordinarly low. For context, Bloomberg reports that Hillary Clinton raised 1.2 billion dollars for the 2016 election while Donald Trump raised 646 million dollars (<a href="https://www.bloomberg.com/politics/graphics/2016-presidential-campaign-fundraising/" class="uri">https://www.bloomberg.com/politics/graphics/2016-presidential-campaign-fundraising/</a>).</p>
+<pre class="r"><code>sum(df$Spend_RUB, na.rm=T) # total spending in Rubles</code></pre>
+<pre><code>## [1] 5869167</code></pre>
+<pre class="r"><code>sum(df$Spend_USD, na.rm=T) # total spending in dollars</code></pre>
+<pre><code>## [1] 92618.47</code></pre>
+<pre class="r"><code>sum(df$Impressions, na.rm=T) # total impressions</code></pre>
+<pre><code>## [1] 40547551</code></pre>
+<pre class="r"><code>sum(df$Clicks, na.rm=T) # total clicks</code></pre>
+<pre><code>## [1] 3730780</code></pre>
+</div>
+<div id="summary-statistics" class="section level2">
+<h2>Summary Statistics</h2>
+<p>These figures give summary statistics for the advertisements. First we report the statistics for all 3,517 ads, then for just those ads that were seen by at least one person. Fully one quarter of the released advertisements were never seen. We can see that the reach of the ads was highly skewed. While the mean impression rate was 15,000 (for ads that were seen at least once), the maximum was 1.3 million impressions.</p>
+<pre class="r"><code>summary(df %&gt;% select(Impressions,Clicks,Spend_RUB,Spend_USD))</code></pre>
+<pre><code>##   Impressions          Clicks        Spend_RUB        Spend_USD      
+##  Min.   :      0   Min.   :    0   Min.   :     0   Min.   :   0.00  
+##  1st Qu.:      0   1st Qu.:    0   1st Qu.:     0   1st Qu.:   0.00  
+##  Median :   1034   Median :   70   Median :   200   Median :   3.31  
+##  Mean   :  11542   Mean   : 1062   Mean   :  1671   Mean   :  26.36  
+##  3rd Qu.:   8429   3rd Qu.:  827   3rd Qu.:   500   3rd Qu.:   7.79  
+##  Max.   :1334544   Max.   :73063   Max.   :331676   Max.   :6126.60  
+##  NA&#39;s   :4         NA&#39;s   :4       NA&#39;s   :4        NA&#39;s   :4</code></pre>
+<pre class="r"><code>summary(df2 %&gt;% select(Impressions,Clicks,Spend_RUB,Spend_USD))</code></pre>
+<pre><code>##   Impressions            Clicks        Spend_RUB          Spend_USD      
+##  Min.   :      1.0   Min.   :    0   Min.   :     0.0   Min.   :   0.00  
+##  1st Qu.:    608.5   1st Qu.:   40   1st Qu.:   125.2   1st Qu.:   2.01  
+##  Median :   3450.0   Median :  245   Median :   300.0   Median :   5.18  
+##  Mean   :  15601.2   Mean   : 1435   Mean   :  2258.2   Mean   :  35.64  
+##  3rd Qu.:  12653.5   3rd Qu.: 1412   3rd Qu.:   764.0   3rd Qu.:  12.01  
+##  Max.   :1334544.0   Max.   :73063   Max.   :331675.8   Max.   :6126.60</code></pre>
+</div>
+<div id="most-ads-dont-matter" class="section level2">
+<h2>Most Ads Don’t Matter</h2>
+<p>In these tables we show the number of ads that make up 10, 25, 50, 75 and 90 percent of the total Impressions, Clicks, and Spending. We see that ninety percent of the impressions came from 827 ads, less than a quarter of the ads released.</p>
+<table>
+<caption>
+<span id="tab:unnamed-chunk-3">Table 1: </span>Impressions
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Number of Ads
+</th>
+<th style="text-align:right;">
+Pct of Total
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+0.10
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+24
+</td>
+<td style="text-align:right;">
+0.26
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+118
+</td>
+<td style="text-align:right;">
+0.50
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+404
+</td>
+<td style="text-align:right;">
+0.75
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+827
+</td>
+<td style="text-align:right;">
+0.90
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>
+<span id="tab:unnamed-chunk-3">Table 1: </span>Clicks
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Number of Ads
+</th>
+<th style="text-align:right;">
+Pct of Total
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+0.10
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:right;">
+0.25
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+160
+</td>
+<td style="text-align:right;">
+0.50
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+433
+</td>
+<td style="text-align:right;">
+0.75
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+784
+</td>
+<td style="text-align:right;">
+0.90
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>
+<span id="tab:unnamed-chunk-3">Table 1: </span>Cost in RUB
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Number of Ads
+</th>
+<th style="text-align:right;">
+Pct of Total
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+0.12
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+0.26
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+53
+</td>
+<td style="text-align:right;">
+0.50
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+191
+</td>
+<td style="text-align:right;">
+0.75
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+529
+</td>
+<td style="text-align:right;">
+0.90
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="conclusions-so-far" class="section level2">
+<h2>Conclusions so Far</h2>
+<p>Less than 100,000 dollars was spent to take out these ads - this is a very small amount of money. It should be compared to the amount that was spent by the Trump and Clinton campaigns for advertising generally and for Facebook based ads in particular.
+While more than 3,500 ads were released, a much smaller fraction of those ads were seen by any meaningful amount of people. When analyzing the ad content, we should attend to the fact that the majority of ads had barely 1,000 impressions and that the influence of the ads is extremely skewed towards a few highly viewed advertisements.</p>
+</div>

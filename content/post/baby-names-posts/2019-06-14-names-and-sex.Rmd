@@ -1,5 +1,5 @@
 ---
-title: Names and Sex
+title: Is Lindsey a Boys Name or a Girls name?
 author: Lief Esbenhsade
 date: '2019-06-14'
 slug: names-and-sex
@@ -28,6 +28,14 @@ project_dir <- source("project_dir.R")[[1]]
 
 df <- readRDS(paste0(project_dir, "/name_data.rds"))
 ```
+
+## Lindsey
+
+```{r}
+lindsey <- df %>% filter(Name == "Lindsey")
+
+```
+
 
 ## Gender Neutral Names
 
