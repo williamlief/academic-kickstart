@@ -1,2 +1,2 @@
 
-project_dir <- "/Users/williamlief/Documents/Research Projects/NameProject"
+project_dir <- "/Users/williamlief/Documents/ResearchProjects/NameProject"
