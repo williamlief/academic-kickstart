@@ -1,5 +1,5 @@
 ---
-title: Is Lindsey a Boys Name or a Girls name?
+title: Baby Names and Gender Associations
 author: Lief Esbenhsade
 date: '2019-06-14'
 slug: names-and-sex
@@ -7,7 +7,7 @@ categories:
   - baby-names
 tags:
   - side
-subtitle: '[A Baby Names Post](https://williamlief.com/project/baby-names/baby-names/)'
+subtitle: '[A Baby Names Post](/project/baby-names/baby-names)'
 summary: 'How names are associated with boys or girls'
 lastmod: '2019-06-14T15:07:23-07:00'
 featured: no
@@ -28,20 +28,47 @@ library(tidyverse)
 project_dir <- source("project_dir.R")[[1]]
 
 df <- readRDS(paste0(project_dir, "/name_data.rds"))
+df2 <- df %>% 
+  spread(Sex, Count, fill = 0) %>% 
+  mutate(total = F+M, 
+         p_F = F / (total))
 ```
 
-## Lindsey
+## Gender Neutral Names in 2017
 
 ```{r}
-lindsey <- df %>% filter(Name == "Lindsey")
-
+neutral <- df2 %>%
+  filter(Year == 2017, 
+         p_F > .4 & p_F < .6,
+         total > 100) %>% 
+  arrange(desc(total))
 ```
+There are surprisingly few gender neutral names in 2017. I find only `r nrow(neutral)` names that are given to at least 100 kids and are between 40 and 60 \% female. The ten most popular gender neutral names are listed below. 
 
-
-## Gender Neutral Names
+```{r}
+knitr::kable(neutral %>% select(Name, "Total Babies" = total, "Percent Female" = p_F) %>% head(10), digits = 2)
+```
 
 
 ## Boys to Girls
-
+```{r}
+df3 <- df2 %>% 
+  group_by(Name, Decade) %>% 
+  summarize(p_F = weighted.mean(p_F, total),
+            total = sum(total)) %>% 
+  ungroup()
+df4 <- df3 %>%   
+  filter(total > 100) %>% 
+  group_by(Name) %>% 
+  summarize(min = min(p_F, na.rm=T), 
+            max = max(p_F, na.rm=T), 
+            total = sum(total, na.rm=T), 
+            delta = max - min) %>% 
+  arrange(desc(delta)) 
+```
+ 
+```{r}
+knitr::kable(df4 %>% filter(total > 10000) %>% head(10))
+```
 
 ## Girls to Boys??

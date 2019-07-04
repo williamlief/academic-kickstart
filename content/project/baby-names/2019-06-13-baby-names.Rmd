@@ -22,12 +22,12 @@ This project is an examination of baby names in America using Social Security Ad
 
 # Popularity Over Time
  
-Interested in the most popular name by year? Want to know just how popular it is? [Check out this post](williamlief.com/post/baby-names-popular/)
+Interested in the most popular name by year? Want to know just how popular the most popular name is? [Check out this post](/post/baby-names-posts/baby-names-popular)
 
-<!-- # Gender Switching -->
-
+<!-- # Names and Gender -->
+Curious to know what names are associated with both boys and girls, or have switched from being mostly associated with one gender to another? [Check out this post](/post/baby-names-posts/names-and-sex)
 <!-- # Alexa App -->
 
-# Explore For Yourself
+# Explore For Yourself 
 
 Want to see a name's popularity trend over time? Compare up to four names at a time on my [shiny page!](https://williamlief.shinyapps.io/NameProject/) 

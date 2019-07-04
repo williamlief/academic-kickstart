@@ -7,7 +7,7 @@ categories:
   - baby-names
 tags:
   - side
-subtitle: '[A Baby Names Post](williamlief.com/baby-names)'
+subtitle: '[A Baby Names Post](/project/baby-names/baby-names)'
 summary: "A look at name popularity over time"
 lastmod: '2019-06-14T09:36:39-07:00'
 featured: no
