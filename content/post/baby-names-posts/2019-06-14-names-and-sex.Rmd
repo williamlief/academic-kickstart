@@ -46,6 +46,26 @@ neutral <- df2 %>%
 There are surprisingly few gender neutral names in 2017. I find only `r nrow(neutral)` names that are given to at least 100 kids and are between 40 and 60 \% female. The ten most popular gender neutral names are listed below. 
 
 ```{r}
+
+ptile <- df2 %>% 
+  mutate(p = round(p_F*10,1)) %>% 
+  group_by(p) %>% 
+  summarize(count = sum(total), 
+            F = sum(F),
+            M = sum(M)) %>% 
+  mutate(pos = cumsum(count) - count)
+    
+# ggplot(data = ptile) +
+#   geom_mosaic(aes(weight = Count, x = p, fill = F))
+
+# ggplot() +
+# geom_mosaic(aes(weight = n.cases, x = product(number), 
+#               fill = factor(n.cases)), offset = 0) 
+ 
+```
+
+
+```{r}
 knitr::kable(neutral %>% select(Name, "Total Babies" = total, "Percent Female" = p_F) %>% head(10), digits = 2)
 ```
 
