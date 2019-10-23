@@ -27,7 +27,7 @@ library(tidyverse)
 
 project_dir <- source("project_dir.R")[[1]]
 
-df <- readRDS(paste0(project_dir, "/name_data.rds"))
+df <- readRDS(paste0(project_dir, "/data/name_data.rds"))
 df2 <- df %>% 
   spread(Sex, Count, fill = 0) %>% 
   mutate(total = F+M, 

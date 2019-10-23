@@ -27,7 +27,7 @@ library(tidyverse)
 
 project_dir <- source("project_dir.R")[[1]]
 
-df <- readRDS(paste0(project_dir, "/name_data.rds")) %>% 
+df <- readRDS(paste0(project_dir, "/data/name_data.rds")) %>% 
   group_by(Year, Sex) %>% 
   mutate(p = 100 * Count / sum(Count), 
          rank = rank(-p),
