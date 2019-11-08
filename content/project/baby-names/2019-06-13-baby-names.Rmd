@@ -28,6 +28,8 @@ Want to see a name's popularity trend over time? Compare up to four names at a t
  
 Sign up with your partner (or partners) on our [name matching website](https://waldocorp.com/) to get suggested names and see which ones you all like. Name recommendations are currently randomized, but with enough users we will roll out a recommendation engine to speed up your search for the perfect name. 
 
+Note that this website is under active development and features are being added frequently. 
+
 # Popularity Over Time
  
 Interested in the most popular name by year? Want to know just how popular the most popular name is? [Check out this rmarkdown post](/post/baby-names-posts/baby-names-popular)
