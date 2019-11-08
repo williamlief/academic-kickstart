@@ -6,7 +6,7 @@ slug: baby-names
 categories: []
 tags:
   - side
-subtitle: 'An exploration of the Social Security name data'
+subtitle: 'Too many things with Social Security data'
 summary: 'Popularity from 1880-2018'
 authors: []
 lastmod: '2019-06-13T12:29:50-07:00'
@@ -18,16 +18,22 @@ image:
 projects: []
 ---
 
-This project is an examination of baby names in America using Social Security Administration Data. I started working on this project when my wife and I were trying to pick a name for our first child. I got fed up with all the janky websites offering up popular names and wanted to dig into the data myself. While the data analysis didn't pick the name for us, it did help whittle down the list of names and come up with new possibilities. See the project code on [GitHub](https://github.com/williamlief/nameProject). 
+This project started as an examination of baby names in America using Social Security Administration Data and slowly grew into several connected projects. When my wife and I were trying to pick a name for our first child, I got fed up with all the janky websites offering up popular names and wanted to dig into the data myself. While the data analysis didn't pick the name for us, it did help whittle down the list of names and come up with new possibilities. 
+
+# Explore For Yourself 
+
+Want to see a name's popularity trend over time? Compare up to four names at a time on my [shiny page!](https://williamlief.shinyapps.io/NameProject/) 
+
+# Need Help Picking a Name Everyone likes?
+ 
+Sign up with your partner (or partners) on our [name matching website](https://waldocorp.com/) to get suggested names and see which ones you all like. Name recommendations are currently randomized, but with enough users we will roll out a recommendation engine to speed up your search for the perfect name. 
 
 # Popularity Over Time
  
-Interested in the most popular name by year? Want to know just how popular the most popular name is? [Check out this post](/post/baby-names-posts/baby-names-popular)
+Interested in the most popular name by year? Want to know just how popular the most popular name is? [Check out this rmarkdown post](/post/baby-names-posts/baby-names-popular)
 
 <!-- # Names and Gender -->
 <!-- Curious to know what names are associated with both boys and girls, or have switched from being mostly associated with one gender to another? [Check out this post](/post/baby-names-posts/names-and-sex) -->
 <!-- # Alexa App -->
 
-# Explore For Yourself 
 
-Want to see a name's popularity trend over time? Compare up to four names at a time on my [shiny page!](https://williamlief.shinyapps.io/NameProject/) 
